@@ -19,6 +19,7 @@
 ## Prerequisites
 
 - deno >=1.17.0 (Global)
+- Note that are some extensions suggested in the vscode folder. While not necessary are strongly recommended if your going to use that IDE.
 
 ## Install - Shell (Mac, Linux)
 
@@ -38,10 +39,22 @@ iwr https://deno.land/x/install/install.ps1 -useb | iex
 brew install deno
 ```
 
+## Denon Install (Optional)
+
+```sh
+deno install -qAf --unstable https://deno.land/x/denon/denon.ts
+```
+
 ## Run
 
 ```sh
-deno run --allow-read --allow-net app.tsx
+deno run --allow-net app.tsx
+```
+
+## Run with Denon
+
+```sh
+denon run app.tsx
 ```
 
 ## Author
